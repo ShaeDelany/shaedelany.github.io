@@ -4,3 +4,6 @@ tr {
 tr.bold {
     background-color: grey;
 }
+table {
+    background-color: black;
+}
