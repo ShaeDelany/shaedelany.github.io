@@ -1,7 +1,7 @@
-tr {
+td {
     background-color: lightgrey;
 }
-tr.bold {
+th {
     background-color: grey;
 }
 table {
