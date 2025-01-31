@@ -1,3 +1,6 @@
 tr {
+    background-color: lightgrey;
+}
+tr.bold {
     background-color: grey;
 }
