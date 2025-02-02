@@ -7,23 +7,38 @@ th {
 table {
     background-color: black;
 }
-.topnav {
-    background-color: red;
-    overflow: hidden;
-  }
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #333; /* Dark background */
+    padding: 15px 0; /* Padding above and below the navbar */
+    position: fixed; /* Sticks to the top */
+    width: 100%; /* Full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between links */
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a {
     text-decoration: none;
-    font-size: 17px;
-  }
-.topnav a:hover {
-    background-color: pink;
-    color: black;
-  }
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+    color: white; /* Text color */
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out; /* Smooth transition */
+}
+.navbar li a:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+    border-radius: 5px;
+}
