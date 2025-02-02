@@ -7,25 +7,23 @@ th {
 table {
     background-color: black;
 }
-.nav {
+.topnav {
     background-color: red;
+    overflow: hidden;
+  }
+.topnav a {
+    float: left;
+    color: black;
     text-align: center;
-}
-.nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-.nav li {
-    margin: 0 10px;
-}
-.nav a {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none; 
-}
-.nav a:hover {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
     background-color: pink;
-}
+    color: black;
+  }
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
