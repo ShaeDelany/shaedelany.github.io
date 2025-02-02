@@ -7,3 +7,25 @@ th {
 table {
     background-color: black;
 }
+.nav {
+    background-color: red;
+    text-align: center;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav li {
+    margin: 0 10px;
+}
+.nav a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none; 
+}
+.nav a:hover {
+    background-color: pink;
+}
