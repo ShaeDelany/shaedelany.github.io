@@ -86,3 +86,6 @@ ul.button {
     align-items: center;
     margin: 20px 0;
 }
+.italic {
+    font-style: italic;
+}
