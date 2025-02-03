@@ -61,7 +61,7 @@ body {
     line-height: 1.6;
 }
 a:hover {
-    background-color: gold;
+    background-color: rgba(255, 0, 0, 0.648);
     font-size: 16px;
 }
 div.experience {
