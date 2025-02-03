@@ -99,3 +99,9 @@ h1 {
 p.NPI {
     text-align:center
 }
+@media screen and (max-width: 600px) {
+    nav a {
+      float: none;
+      width: 100%;
+    }
+}
