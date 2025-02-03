@@ -7,10 +7,10 @@ th {
 }
 table {
     background-color: black;
-    border: 2px black;
+    border: 2px solid black; 
     border-collapse: collapse;
     width: 60%;
-    margin: 40px;
+    margin: 40px auto;
 }
 td, th {
     padding: 10px;
