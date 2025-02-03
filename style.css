@@ -14,54 +14,33 @@ table {
     font-family: Arial, sans-serif;
 }
 nav {
-    background-color: #333; /* Dark background */
-    padding: 15px 0; /* Padding above and below */
-    text-align: center; /* Center the navbar */
+    background-color: rgba(255, 0, 0, 0.648); 
+    padding: 15px 0; 
+    text-align: center; 
 }
 nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding: 0;
     margin: 0;
 }
-
-/* Navbar list items */
 nav ul li {
-    display: inline; /* Display items in a row */
-    margin: 0 15px; /* Space between items */
+    display: inline; 
+    margin: 0 15px; 
 }
-
-/* Navbar links */
 nav ul li a {
     text-decoration: none;
-    color: white; /* Text color */
+    color: white; 
     font-size: 18px;
     padding: 10px 15px;
-    transition: 0.3s ease-in-out; /* Smooth effect */
+    transition: 0.3s ease-in-out; 
 }
-
-/* Hover effect */
 nav ul li a:hover {
-    background-color: #555; /* Change background color on hover */
+    background-color: pink; 
     border-radius: 5px;
 }
-
-/* Active page styling */
 nav ul li a.active {
     background-color: #777;
     border-radius: 5px;
-}
-
-/* Responsive Navbar */
-@media (max-width: 600px) {
-    nav ul {
-        display: flex;
-        flex-direction: column; /* Stack links */
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -72,4 +51,8 @@ body {
 }
 body {
     line-height: 1.6;
+}
+a:hover {
+    background-color: gold;
+    font-size: 18px;
 }
