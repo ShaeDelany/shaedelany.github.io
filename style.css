@@ -7,38 +7,65 @@ th {
 table {
     background-color: black;
 }
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
+/* Navigation bar styling */
 nav {
     background-color: #333; /* Dark background */
-    padding: 15px 0; /* Padding above and below the navbar */
-    position: fixed; /* Sticks to the top */
-    width: 100%; /* Full width */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Ensures it stays above other elements */
+    padding: 15px 0; /* Padding above and below */
+    text-align: center; /* Center the navbar */
 }
-.navbar {
-    list-style-type: none;
-    display: flex;
-    justify-content: center; /* Center the links */
-    gap: 20px; /* Space between links */
+
+/* Navbar list */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
 }
-.navbar li {
-    display: inline;
+
+/* Navbar list items */
+nav ul li {
+    display: inline; /* Display items in a row */
+    margin: 0 15px; /* Space between items */
 }
-.navbar li a {
+
+/* Navbar links */
+nav ul li a {
     text-decoration: none;
     color: white; /* Text color */
     font-size: 18px;
     padding: 10px 15px;
-    transition: 0.3s ease-in-out; /* Smooth transition */
+    transition: 0.3s ease-in-out; /* Smooth effect */
 }
-.navbar li a:hover {
-    background-color: #555; /* Slightly lighter background on hover */
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
     border-radius: 5px;
 }
+
+/* Active page styling */
+nav ul li a.active {
+    background-color: #777;
+    border-radius: 5px;
+}
+
+/* Responsive Navbar */
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Stack links */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
