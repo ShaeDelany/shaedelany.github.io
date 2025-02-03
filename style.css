@@ -56,3 +56,9 @@ a:hover {
     background-color: gold;
     font-size: 18px;
 }
+div.experience {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
