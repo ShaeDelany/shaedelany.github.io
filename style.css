@@ -51,14 +51,10 @@ nav ul li a.active {
     border-radius: 5px;
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
-body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
     margin: 20px;
     padding: 10px;
-}
-body {
-    line-height: 1.6;
 }
 a:hover {
     background-color: pink;
@@ -96,7 +92,7 @@ ul.button {
 h1 {
     text-align: center;
 }
-p.NPI {
+p.volley {
     text-align:center
 }
 @media screen and (max-width: 600px) {
