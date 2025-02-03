@@ -7,22 +7,17 @@ th {
 table {
     background-color: black;
 }
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-/* Navigation bar styling */
 nav {
     background-color: #333; /* Dark background */
     padding: 15px 0; /* Padding above and below */
     text-align: center; /* Center the navbar */
 }
-
-/* Navbar list */
 nav ul {
     list-style: none; /* Remove bullet points */
     padding: 0;
@@ -67,5 +62,12 @@ nav ul li a.active {
     nav ul li {
         margin: 5px 0;
     }
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+body {
+    margin: 20px;
+    padding: 10px;
 }
 
