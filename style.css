@@ -72,5 +72,6 @@ div.experience {
 }
 #home-img {
     display: block;
-    margin: 10px;
+    margin: 20px auto;
+    max-width: 100%;
 }
