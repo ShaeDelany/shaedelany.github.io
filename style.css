@@ -6,6 +6,12 @@ th {
 }
 table {
     background-color: black;
+    border: 2px black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px black;
+    padding: 10px;
 }
 * {
     margin: 0;
@@ -54,7 +60,7 @@ body {
 }
 a:hover {
     background-color: gold;
-    font-size: 18px;
+    font-size: 15px;
 }
 div.experience {
     border: 1px solid #ccc;
