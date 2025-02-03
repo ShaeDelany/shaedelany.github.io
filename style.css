@@ -8,6 +8,8 @@ table {
     background-color: black;
     border: 2px black;
     border-collapse: collapse;
+    width: 60%;
+    margin: 40px;
 }
 td, th {
     border: 2px black;
@@ -67,8 +69,4 @@ div.experience {
     padding: 20px;
     margin: 20px 0;
     background-color: #f9f9f9;
-}
-table {
-    margin: 0 auto; 
-    border-collapse: collapse; 
 }
