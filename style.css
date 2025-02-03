@@ -3,6 +3,7 @@ td {
 }
 th {
     background-color: grey;
+    font-weight: bold;
 }
 table {
     background-color: black;
@@ -12,8 +13,11 @@ table {
     margin: 40px;
 }
 td, th {
-    border: 2px black;
     padding: 10px;
+    width: 100px; 
+    text-align: center; 
+    border: 1px solid black; 
+    padding: 8px;
 }
 * {
     margin: 0;
