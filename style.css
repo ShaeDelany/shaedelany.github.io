@@ -89,3 +89,9 @@ ul.button {
 .italic {
     font-style: italic;
 }
+h1 {
+    text-align: center;
+}
+p.NPI {
+    text-align:center
+}
